@@ -1,0 +1,10 @@
+.keys {
+    background-image: url(../assets/yvette-de-wit-NYrVisodQ2M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
