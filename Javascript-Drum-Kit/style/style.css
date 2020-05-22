@@ -1,19 +1,29 @@
-.keys {
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Varela+Round&display=swap');
+
+.header {
     background-image: url(../assets/yvette-de-wit-NYrVisodQ2M-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    display: block;
     width: 100%;
-    height: 600px;
+    height: 550px;
+}
+
+.keys {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .key {
+    margin: 20px;
+    border: 2px solid black;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    width: 100px;
+    width: 80px;
     transition: all 0.07s;
-    text-align: center;
     color: #fff;
     background: rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 0 5px black;
@@ -21,6 +31,21 @@
 
 .playing {
     transform: scale(1.1);
-    border: 1px solid #c1eb4e;
-    box-shadow: 0 0 10px #c1eb4e;
+    border: 1px solid #144eec;
+    box-shadow: 0 0 15px #144eec;
+}
+
+h1 {
+    color: #fff;
+}
+
+p{
+    font-size: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+span {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }

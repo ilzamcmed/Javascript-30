@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,54 +8,71 @@
     <link rel="stylesheet" href="style/style.css">
     <script src="js/script.js"></script>
 </head>
+
 <body>
+    <header class="header">
+        <h1>Aperte na tecla para tocar!</h1>
 
-    <div class="keys">
+        <div class="keys">
 
-       <div class="key">
-           <h1>A</h1>
-           <span>clap</span>
-       </div>
+            <div data-key="65" class="key">
+                <p>A</p>
+                <span>CLAP</span>
+            </div>
 
-       <div class="key">
-           <h1>S</h1>
-           <span>hihat</span>
-       </div>
+            <div data-key="83" class="key">
+                <p>S</p>
+                <span>HIHAT</span>
+            </div>
 
-       <div class="key">
-           <h1>D</h1>
-           <span>kick</span>
-       </div>
+            <div data-key="68" class="key">
+                <p>D</p>
+                <span>KICK</span>
+            </div>
 
-       <div class="key">
-           <h1>F</h1>
-           <span>openhat</span>
-       </div>
+            <div data-key="70" class="key">
+                <p>F</p>
+                <span>OPENHAT</span>
+            </div>
 
-       <div class="key">
-           <h1>G</h1>
-           <span>boom</span>
-       </div>
+            <div data-key="71" class="key">
+                <p>G</p>
+                <span>BOOM</span>
+            </div>
 
-       <div class="key">
-           <h1>H</h1>
-           <span>ride</span>
-       </div>
+            <div data-key="72" class="key">
+                <p>H</p>
+                <span>RIDE</span>
+            </div>
 
-       <div class="key">
-           <h1>J</h1>
-           <span>snare</span>
-       </div>
+            <div data-key="74" class="key">
+                <p>J</p>
+                <span>SNARE</span>
+            </div>
 
-       <div class="key">
-           <h1>K</h1>
-           <span>tom</span>
-       </div>
+            <div data-key="75" class="key">
+                <p>K</p>
+                <span>TOM</span>
+            </div>
 
-       <div class="key">
-           <h1>L</h1>
-           <span>tink</span>
-       </div>
-    </div>
+            <div data-key="76" class="key">
+                <p>L</p>
+                <span>TINK</span>
+            </div>
+
+
+            <audio data-key="65" src="assets/audio/CYCdh_ElecK06-Clap01.wav"></audio>
+            <audio data-key="83" src="assets/audio/KHats Open-01.wav"></audio>
+            <audio data-key="68" src="assets/audio/CYCdh_KesKick-07.wav"></audio>
+            <audio data-key="70" src="assets/audio/CYCdh_VinylK3-OpHat.wav"></audio>
+            <audio data-key="71" src="assets/audio/CYCdh_LudFlamC-05.wav"></audio>
+            <audio data-key="72" src="assets/audio/CYCdh_VinylK2-Ride02.wav"></audio>
+            <audio data-key="74" src="assets/audio/CYCdh_VinylK2-Snr02.wav"></audio>
+            <audio data-key="75" src="assets/audio/CYCdh_VinylK2-Tom02.wav"></audio>
+            <audio data-key="76" src="assets/audio/CYCdh_Kurz04-Tom06.wav"></audio>
+
+        </div>
+    </header>
 </body>
+
 </html>
