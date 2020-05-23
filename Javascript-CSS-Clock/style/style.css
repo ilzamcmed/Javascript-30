@@ -46,3 +46,13 @@ body {
     /* transition: all 0.05s; */
     transition-timing-function: cubic-bezier(0.1, 0.82, 0.165, 1);
 }
+
+.clock_minutes {
+    height: 4px;
+    background: yellow;
+}
+
+.clock_seconds {
+    background: red;
+    height: 3px;
+}
