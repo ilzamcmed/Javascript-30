@@ -107,8 +107,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
         const [aLast, aFirst] = lastName.split(',');
         const [bLast, bFirst] = firstName.split(',');
-         
+
         return aLast > bLast ? 1 : -1
     })
     console.log(alphabet)
+
+
 })
