@@ -1,15 +1,14 @@
 :root {
     --base: #ffc600;
     --spacing: 10px;
-    --blur: 10px.
+    --grayscale: 0%;
 }
 
 img {
     background: var(--base);
     padding: var(--spacing);
-    filter: var(--blur);
-    width: 100%;
-    width: 800px;
+    filter: grayscale(var(--grayscale));
+    width: 750px;
 }
 
 .title {
@@ -23,6 +22,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 30px;
+}
 
+.controls {
+    margin-bottom: 15px;
 }
 
