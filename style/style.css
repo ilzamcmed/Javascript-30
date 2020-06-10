@@ -5,6 +5,7 @@ html, body {
     font-family: 'Varela Round', sans-serif;
 }
 
+
 .header {
     background-image: linear-gradient(rgba(175, 175, 174, 0.2),
     rgba(71, 71, 63, 0.2)), url(../assets/irvan-smith-5eBW5GomfhY-unsplash.jpg);
@@ -26,6 +27,7 @@ html, body {
 .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 25px;
 }
 
